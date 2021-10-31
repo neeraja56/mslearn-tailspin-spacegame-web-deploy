@@ -137,7 +137,7 @@ stages:
     dependsOn: Deploy
     displayName: 'Run load tests'
     pool:
-    vmImage: 'ubuntu-20.04'
+      vmImage: 'ubuntu-20.04'
     variables:
     - group: Release
     steps:
